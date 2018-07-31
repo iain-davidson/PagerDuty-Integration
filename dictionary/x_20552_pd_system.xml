@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="live_feed=true" extends="x_20552_pd_resource" label="System" max_length="40" name="x_20552_pd_system" type="collection">
+        <element choice="3" default="production" label="Environment" max_length="40" name="environment" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="production" sequence="1000" value="production"/>
+                <element inactive_on_update="false" label="pre-production" sequence="2000" value="pre-production"/>
+                <element inactive_on_update="false" label="development" sequence="3000" value="development"/>
+            </choice>
+        </element>
+        <element label="Headers" mandatory="true" max_length="2000" name="headers" type="simple_name_values"/>
+    </element>
+</database>

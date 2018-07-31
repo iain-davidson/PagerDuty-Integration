@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="M2M PagerDuty" max_length="40" name="x_20552_pd_m2m_pdr_to_pdr" type="collection">
+        <element default="true" label="Active" mandatory="true" max_length="40" name="active" type="boolean"/>
+        <element label="Child" max_length="32" name="pd_child" reference="x_20552_pd_resource" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element label="Parent" max_length="32" name="pd_parent" reference="x_20552_pd_resource" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <index name="index">
+            <element name="pd_child"/>
+        </index>
+        <index name="index2">
+            <element name="pd_parent"/>
+        </index>
+    </element>
+</database>

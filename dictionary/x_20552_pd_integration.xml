@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="live_feed=true" extends="x_20552_pd_resource" label="Integration" max_length="40" name="x_20552_pd_integration" type="collection">
+        <element label="Integration key" mandatory="true" max_length="100" name="integration_key" type="string"/>
+        <element label="Service" max_length="32" name="service" reference="x_20552_pd_service" type="reference"/>
+        <element label="Vendor" max_length="32" name="vendor" reference="x_20552_pd_vendor" type="reference"/>
+        <index name="index">
+            <element name="service"/>
+        </index>
+        <index name="index2">
+            <element name="vendor"/>
+        </index>
+    </element>
+</database>

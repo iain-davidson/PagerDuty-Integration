@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="live_feed=true" extends="x_20552_pd_resource" label="Service" max_length="40" name="x_20552_pd_service" type="collection">
+        <element label="Escalation Policy" max_length="32" name="escalation_policy" reference="x_20552_pd_escalation_policy" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <index name="index">
+            <element name="escalation_policy"/>
+        </index>
+    </element>
+</database>

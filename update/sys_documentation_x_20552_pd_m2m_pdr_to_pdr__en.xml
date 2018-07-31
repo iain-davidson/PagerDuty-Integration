@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="M2M PagerDuty" language="en" table="x_20552_pd_m2m_pdr_to_pdr">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>M2M PagerDuty</label>
+            <language>en</language>
+            <name>x_20552_pd_m2m_pdr_to_pdr</name>
+            <plural>M2M PagerDuties</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-31 10:53:25</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>2f36c1874f2f5300b8dc00f18110c79b</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>M2M PagerDuty</sys_name>
+            <sys_package display_value="PagerDuty" source="x_20552_pd">307abc834fe75300b8dc00f18110c7f2</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="PagerDuty">307abc834fe75300b8dc00f18110c7f2</sys_scope>
+            <sys_update_name>sys_documentation_x_20552_pd_m2m_pdr_to_pdr__en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-31 19:28:57</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

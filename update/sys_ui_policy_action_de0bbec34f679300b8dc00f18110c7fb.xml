@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>number</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-31 19:23:59</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>de0bbec34f679300b8dc00f18110c7fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>number</sys_name>
+        <sys_package display_value="PagerDuty" source="x_20552_pd">307abc834fe75300b8dc00f18110c7f2</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="PagerDuty">307abc834fe75300b8dc00f18110c7f2</sys_scope>
+        <sys_update_name>sys_ui_policy_action_de0bbec34f679300b8dc00f18110c7fb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-31 19:23:59</sys_updated_on>
+        <table>x_20552_pd_resource</table>
+        <ui_policy display_value="Readonly Number">a2dabac34f679300b8dc00f18110c74b</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

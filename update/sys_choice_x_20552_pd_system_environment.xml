@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="environment" table="x_20552_pd_system" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>environment</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>production</label>
+            <language>en</language>
+            <name>x_20552_pd_system</name>
+            <sequence>1000</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-31 19:19:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0e1a3a434f679300b8dc00f18110c745</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-31 19:20:29</sys_updated_on>
+            <value>production</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>environment</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>pre-production</label>
+            <language>en</language>
+            <name>x_20552_pd_system</name>
+            <sequence>2000</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-31 19:21:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>795aba834f679300b8dc00f18110c738</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-31 19:21:02</sys_updated_on>
+            <value>pre-production</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>environment</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>development</label>
+            <language>en</language>
+            <name>x_20552_pd_system</name>
+            <sequence>3000</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-31 19:21:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8a7ab2834f679300b8dc00f18110c79b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-31 19:21:34</sys_updated_on>
+            <value>development</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>environment</element>
+            <name>x_20552_pd_system</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-31 19:19:35</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>4e1aba834f679300b8dc00f18110c733</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>environment</sys_name>
+            <sys_package display_value="PagerDuty" source="x_20552_pd">307abc834fe75300b8dc00f18110c7f2</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="PagerDuty">307abc834fe75300b8dc00f18110c7f2</sys_scope>
+            <sys_update_name>sys_choice_x_20552_pd_system_environment</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-31 19:19:35</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>
